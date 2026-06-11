@@ -99,7 +99,7 @@ In the Azure portal, **Virtual machines → Create**, using:
 
 A single VM deployment creates five resources — the VM, its network interface, a virtual network, a public IP, and a network security group — all in one resource group.
 
-![Azure resource list showing the five resources created by the VM deployment](images/azure-resources.png)
+<img width="1523" height="230" alt="image" src="https://github.com/user-attachments/assets/ca4b1b19-9430-41d8-b2c2-b0b941d2c983" />
 
 Review + Create, then Create. When it finishes, RDP into the VM — all remaining build steps happen *inside* the server.
 
