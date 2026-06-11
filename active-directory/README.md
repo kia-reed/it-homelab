@@ -220,7 +220,7 @@ Expand **Forest: lab.local → Domains → lab.local**, right-click the **IT** O
 
 The GPO's Settings tab confirms all four controls are defined and enabled:
 
-![Group Policy Management Settings tab showing skoolGPO1 enforcing password length, complexity, screen-lock inactivity limit, and USB blocking](images/gpo-settings.png)
+<img width="1608" height="886" alt="Screenshot 2026-06-11 013815" src="https://github.com/user-attachments/assets/56e49c08-3013-4a6a-8a51-936bb88841c4" />
 
 ---
 
@@ -255,7 +255,17 @@ flowchart TB
 
 Running `gpresult /r` on `testClient` confirms the policy was pulled from the domain controller and `skoolGPO1` applied at the computer level:
 
-![gpresult output on testClient showing skoolGPO1 under Applied Group Policy Objects, pulled from testVM.lab.local](images/gpresult-applied.png)
+RSOP data for LAB\testClient on TESTCLIENT : Logging Mode
+
+COMPUTER SETTINGS
+------------------
+    Group Policy was applied from:      testVM.lab.local
+    Domain Name:                        LAB
+
+    Applied Group Policy Objects
+    -----------------------------
+        skoolGPO1
+        Default Domain Policy
 
 This confirms the full lifecycle end to end: a policy authored on the domain controller, linked to an OU, and enforced on a separate domain-joined machine — exactly how access and security baselines propagate across an enterprise.
 
