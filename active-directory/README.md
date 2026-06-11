@@ -199,7 +199,7 @@ Add-ADGroupMember -Identity "Sales_Users"   -Members "david.smith"
 
 The IT OU below shows the result: the `alice.chen` user, the `IT_Admins` security group, and (after the domain join in Step 6) the `testClient` computer — all governed together by the OU's linked policy.
 
-![ADUC showing the IT OU containing alice.chen, IT_Admins, and testClient](images/ou-structure.png)
+<img width="493" height="270" alt="image" src="https://github.com/user-attachments/assets/11453fd8-92ed-4bd6-a3a7-efbeca5ccf79" />
 
 > The default password here is for a throwaway lab only. In any real environment, force a change at first logon and never reuse a shared password across accounts.
 
