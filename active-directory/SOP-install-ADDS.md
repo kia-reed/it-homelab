@@ -9,7 +9,7 @@ This SOP explains how to install Active Directory Domain Services (AD DS) on a W
 
 **1. Open Server Manager and wait for the dashboard to load** [0:09](https://loom.com/share/dcfd85958dd54b7db031ce7e5c37fe63?t=9)
 
-![generated-image-at-00:00:09](https://loom.com/i/d413180f2e774f7c902de189b732ed11?workflows_screenshot=true)
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/7cc6bc34-4e8c-403b-b375-53daa21fe161" />
 
 - Launch **Server Manager** on the Windows Server virtual machine.
 - Wait until the **Dashboard** fully loads before making changes.
@@ -17,7 +17,7 @@ This SOP explains how to install Active Directory Domain Services (AD DS) on a W
 
 **2. Start the Add Roles and Features Wizard** [0:37](https://loom.com/share/dcfd85958dd54b7db031ce7e5c37fe63?t=37)
 
-![generated-image-at-00:00:37](https://loom.com/i/b4ed2afa6088416cbf07781066ebd4c8?workflows_screenshot=true)
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/9f8e35dc-72bf-4019-8145-8528691dc983" />
 
 - In **Server Manager**, select **Manage**.
 - Click **Add Roles and Features** to open the wizard.
@@ -25,7 +25,7 @@ This SOP explains how to install Active Directory Domain Services (AD DS) on a W
 
 **3. Select Active Directory Domain Services for installation** [0:37](https://loom.com/share/dcfd85958dd54b7db031ce7e5c37fe63?t=37)
 
-![generated-image-at-00:00:37](https://loom.com/i/b4ed2afa6088416cbf07781066ebd4c8?workflows_screenshot=true)
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/3bdf44ed-b199-4ece-a8fc-a98fe22ea34a" />
 
 - In the roles list, locate and select **Active Directory Domain Services**.
 - When prompted, proceed with the installation workflow.
@@ -33,7 +33,7 @@ This SOP explains how to install Active Directory Domain Services (AD DS) on a W
 
 **4. Add required features and confirm installation** [0:48](https://loom.com/share/dcfd85958dd54b7db031ce7e5c37fe63?t=48)
 
-![generated-image-at-00:00:48](https://loom.com/i/53475da957d44008951755f1dcff8b14?workflows_screenshot=true)
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/3477da68-6ca5-4da8-a294-274562ad3d0b" />
 
 - When the wizard prompts you to add required features, click **Add Features**.
 - Continue by clicking **Next** through the remaining screens.
@@ -41,7 +41,7 @@ This SOP explains how to install Active Directory Domain Services (AD DS) on a W
 
 **5. Verify the installation completes successfully** [1:05](https://loom.com/share/dcfd85958dd54b7db031ce7e5c37fe63?t=65)
 
-![generated-image-at-00:01:05](https://loom.com/i/f765a25d5f204805bb939cc43f4bf3ec?workflows_screenshot=true)
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/28766ecd-7f7d-4eac-8f5e-3e1c9e13a4f2" />
 
 - Wait for the installation process to finish.
 - Confirm the role installation completes without errors.
