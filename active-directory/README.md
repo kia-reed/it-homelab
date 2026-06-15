@@ -1,7 +1,7 @@
 # Lab 1 — Build & Manage an Active Directory Domain
 🎥 Video walkthrough
 
-▶️ Watch the walkthrough on Loom — a narrated walkthrough of installing Active Directory Domain Services on the Windows Server VM.
+▶️ [Watch the walkthrough on Loom](https://loom.com/share/dcfd85958dd54b7db031ce7e5c37fe63) — a narrated walkthrough of installing Active Directory Domain Services on the Windows Server VM.
 
 📄 A step-by-step SOP for installing AD DS (with timestamped video links) is also included in this repo.
 
