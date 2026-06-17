@@ -24,6 +24,27 @@ Networks carry every piece of data an organization produces — emails, logins, 
 
 ---
 
+## Architecture — how Wireshark captures traffic
+ 
+This diagram shows how data flows from the internet, through the network, and into Wireshark for analysis. The key piece is the **NIC (Network Interface Card) in promiscuous mode** — normally a NIC ignores packets not addressed to it, but promiscuous mode tells it to grab everything it sees, which is what hands Wireshark the raw traffic to decode.
+ 
+```mermaid
+flowchart TB
+    NET["Internet<br/>web · DNS · remote hosts"]
+    RTR["Router / switch<br/>forwards the frames"]
+    NIC["Network Interface Card (NIC)<br/>promiscuous mode — captures all packets"]
+    WS["Wireshark<br/>decodes every packet"]
+ 
+    NET --> RTR --> NIC --> WS
+ 
+    WS --> CAP["Capture<br/>live traffic"]
+    WS --> FIL["Filter<br/>dns · tcp · http"]
+    WS --> ANA["Analyse<br/>follow streams"]
+    WS --> EXP["Export<br/>.pcapng file"]
+```
+ 
+---
+
 ## Key concepts (quick reference)
 
 - **Packet** — a small unit of data crossing the network; has a header (source/destination IP addresses, port) and a payload (the data).
