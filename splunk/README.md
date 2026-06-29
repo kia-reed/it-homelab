@@ -1,5 +1,11 @@
 # Lab 3 — Splunk SIEM (Security Information and Event Management) & Log Analysis
 
+## 🎥 Video walkthrough
+
+▶️ **[Watch the walkthrough on Loom](https://www.loom.com/share/9040ddedb1a7412e8806834945cbfaf9)** — a short walkthrough of the Splunk SIEM (Security Information and Event Management) lab detecting a brute force attack end to end.
+
+---
+
 ![Tool](https://img.shields.io/badge/tool-Splunk-65A637)
 ![Focus](https://img.shields.io/badge/focus-SIEM%20%26%20Log%20Analysis-0F6E56)
 ![Aligns](https://img.shields.io/badge/aligns%20with-Security%2B%20%C2%B7%20CySA%2B%20%C2%B7%20Splunk%20Core-534AB7)
