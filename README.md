@@ -8,6 +8,7 @@ A collection of hands-on labs where I build, configure, and secure real IT and c
 |-----|-------------|
 | [Active Directory](active-directory/) | Stand up a Windows Server 2025 domain controller on Azure, build a full Active Directory structure (OUs, security groups, users, Group Policy), and run day-one help desk tasks. |
 | [Wireshark & Network Analysis](wireshark/) | Capture and analyze live network traffic — dissect a DNS lookup, watch the TCP three-way handshake, expose cleartext credentials over HTTP, and reassemble a full conversation with Follow TCP Stream. |
+| [Splunk SIEM & Log Analysis](./splunk) | Forward Windows Active Directory security logs into Splunk, write SPL searches to detect brute force, account lockouts, and suspicious logins, and build a security dashboard and automated alert. |
 
 ## Background
 
